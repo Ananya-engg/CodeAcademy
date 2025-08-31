@@ -4,6 +4,7 @@ import { MapPin, Clock, Phone } from "lucide-react"; // simple icons
 export default function Contact() {
   return (
     <section className="contact-us" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact details</h2>
       <div className="contact-container">
         {/* Info Cards */}
         <div className="contact-cards">

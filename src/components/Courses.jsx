@@ -80,8 +80,9 @@ export default function Courses() {
 
   return (
     <section className="courses" id="courses" aria-labelledby="courses-title">
-      <AnimatedBackground/>
+      
       <h2 id="courses-title">Explore Our Top Courses</h2>
+      
       <Slider {...settings}>
         {courses.map((course, i) => (
           <FlipCard

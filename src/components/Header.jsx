@@ -8,12 +8,13 @@ export default function Header() {
       </div>
       <nav aria-label="Primary">
         <ul className="nav">
-          <li><a className="btn btn--ghost" href="#home">Home</a></li>
-          <li><a className="btn btn--ghost" href="#about">About Us</a></li>
-          <li><a className="btn btn--ghost" href="#courses">Courses</a></li>
-          <li><a className="btn btn--ghost" href="#programs">Programs</a></li>
-          <li><a className="btn btn--ghost" href="#reviews">Reviews</a></li>
-          <li><a className="btn btn--gradient" href="#contact">Contact</a></li>
+          <li><a className="btn header-btn" href="#home">Home</a></li>
+          <li><a className="btn header-btn" href="#about">About Us</a></li>
+          <li><a className="btn header-btn" href="#courses">Courses</a></li>
+          <li><a className="btn header-btn" href="#programs">Programs</a></li>
+          <li><a className="btn header-btn" href="#reviews">Reviews</a></li>
+          <li><a className="btn join-now-btn" href="#contact">Contact</a></li>
+
         </ul>
       </nav>
     </header>

@@ -12,13 +12,26 @@ export default function FlipCard({ frontImg, title, details, duration, reviews, 
           <div className="card-content">
             {duration && <p>Duration: {duration} • {reviews} Reviews</p>}
             <h3>{title}</h3>
-            <button
-              className="btn btn--chip"
-              onClick={() => setFlipped(true)}
-            >
-              Read More →
-            </button>
-            <a href="#contact" className="btn btn--gradient">{btnText || "Join Now"}</a>
+
+            <div className="card-actions">
+              <button
+  className="btn btn--read-more"
+  onClick={() => setFlipped(true)}
+>
+  Read More →
+</button>
+              
+
+              <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfcVwR5wPVTWJazfUYHM9O1WgqkRMwhcVgotW2viytE6LRPUQ/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn--join"
+>
+  Join Now
+</a>
+
+            </div>
           </div>
         </div>
 
@@ -26,12 +39,15 @@ export default function FlipCard({ frontImg, title, details, duration, reviews, 
         <div className="card-back">
           <h3>{title}</h3>
           <p>{details}</p>
-          <button
-            className="btn btn--gradient"
-            onClick={() => setFlipped(false)}
-          >
-            Back
-          </button>
+
+          <div className="card-actions">
+            <button
+              className="btn btn--gradient"
+              onClick={() => setFlipped(false)}
+            >
+              ← Back
+            </button>
+          </div>
         </div>
       </div>
     </article>

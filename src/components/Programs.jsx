@@ -54,6 +54,7 @@ export default function Programs() {
     <section className="special-programs" id="programs" aria-labelledby="programs-title">
       <AnimatedBackground/>
       <h2 id="programs-title">Special Programs</h2>
+      
       <Slider {...settings}>
         {programs.map((program, i) => (
           <FlipCard
@@ -67,6 +68,7 @@ export default function Programs() {
           />
         ))}
       </Slider>
+      
     </section>
   );
 }

@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+
+import AnimatedBackground from "./AnimatedBackground";
 export default function About() {
   return (
     <section className="about" id="about">
+      <AnimatedBackground/>
       <div id="particles-js-about" className="particles-layer" />
       <div className="about-container">
         <div className="about-image">
@@ -28,7 +31,7 @@ export default function About() {
             <p>We make coding education accessible with tutorials and real-world projects.</p>
             <p>At Code Elevate, we believe that great developers aren’t born — they’re built. Our mission is to make high-quality, practical coding education accessible to everyone, whether you're writing your first line of code or fine-tuning advanced systems.
 We offer beginner-friendly tutorials, deep dives into advanced topics, and real-world projects that help you turn knowledge into skill. Our content is crafted by experienced developers and educators who understand the challenges of learning to code — and how to overcome them.</p>
-            <a href="#courses" className="btn btn--gradient">Get Started</a>
+            <a href="#courses" className="btn btn--get-started">Get Started</a>
           </div>
         </motion.div>
       </div>
