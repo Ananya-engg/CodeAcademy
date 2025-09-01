@@ -22,59 +22,162 @@ export default function Courses() {
   const courses = [
     {
       img: "/images/AI Tools.jpg",
-      title: "AI Tools",
-      duration: "2-3 Months",
-      reviews: "500",
-      details: "Learn cutting-edge AI tools for automation, content creation, and workflow optimization."
+      title: "Master in AI Tools",
+      duration: "2 Months",
+      reviews: "1800 Reviews",
+      details: {
+        whatYouGet: [
+          "Certificate on Completion",
+          "Mock Interviews",
+          "1:1 Live Session",
+          "Career Guidance"
+        ],
+        finalResult: [
+          "Master Top AI Platforms",
+          "Boost Productivity & Skills",
+          "Be Ready for",
+          "Advance AI Jobs"
+        ]
+      }
     },
     {
       img: "/images/Data_Analytics.jpg",
       title: "Data Analytics",
       duration: "3–4 Months",
-      reviews: "800",
-      details: "Master Excel, SQL, and visualization tools to analyze and present data effectively."
+      reviews: "1300 Reviews",
+      details: {
+        whatYouGet: [
+          "Certificate on Completion",
+          "Mock Interviews",
+          "1:1 Live Session",
+          "Career Guidance"
+        ],
+        finalResult: [
+          "Become a Data Analyst",
+          "Master Visualization",
+          "Land Analytics",
+          "Bussiness Roles"
+        ]
+      }
     },
     {
       img: "/images/Web_Development.jpg",
       title: "Web Development",
-      duration: "4–5 Months",
-      reviews: "1,100",
-      details: "Build responsive websites using HTML, CSS, JavaScript and modern frameworks."
+      duration: "3–4 Months",
+      reviews: "1,200 Reviews",
+      details: {
+        whatYouGet: [
+          "Certificate on Completion",
+          "Mock Interviews",
+          "1:1 Live Session",
+          "Career Guidance"
+        ],
+        finalResult: [
+          "Become a Web Developer",
+          "Build and Deploy Your Own Website",
+          "Automate Yourself in",
+          "Daily Tasks"
+        ]
+      }
     },
     {
       img: "/images/FullStack.jpg",
       title: "Full Stack Development",
-      duration: "5–6 Months",
-      reviews: "1,200",
-      details: "End-to-end development with front-end, back-end and databases — become job-ready."
+      duration: "4–5 Months",
+      reviews: "1,100 Reviews",
+      details: {
+        whatYouGet: [
+          "Certificate on Completion",
+          "Mock Interviews",
+          "1:1 Live Session",
+          "Career Guidance"
+        ],
+        finalResult: [
+          "Become a FullStack Developer",
+          "Master frontend & backend technologies",
+          "Build complete applications",
+          "independently"
+        ]
+      }
     },
     {
       img: "/images/IRP.jpg",
       title: "Industry Readiness Program",
-      duration: "6 Months",
-      reviews: "900",
-      details: "Gain real-world project experience, teamwork, Git workflows, and mock interviews."
+      duration: "5-6 Months",
+      reviews: "3,400 Reviews",
+      details: {
+        whatYouGet: [
+          "Certificate on Completion",
+          "Mock Interviews + Career Guidance",
+          "1:1 Live Session",
+          "Assessment to track Progress",
+          "Internship Opportunity"
+        ],
+        finalResult: [
+          "Become a Industry Ready",
+          "Confident in Interview & Teamwork",
+          "Ready to start your",
+          "professional journey"
+        ]
+      }
     },
     {
       img: "/images/Python.jpg",
       title: "Python Programming",
-      duration: "2–3 Months",
-      reviews: "1,000",
-      details: "Beginner to advanced Python — data structures, OOP, APIs, and practical projects."
+      duration: "3–4 Months",
+      reviews: "2,500 Reviews",
+      details: {
+        whatYouGet: [
+          "Certificate on Completion",
+      "Mock Interviews",
+      "1:1 Live Session",
+      "Career Guidance"
+        ],
+        finalResult: [
+          "Master Python Programming",
+          "Build Automate & Scripts",
+          "Be Ready for most challenging roles"
+      ]
+      }
     },
     {
       img: "/images/Soft_Skills_Training.jpg",
       title: "Soft Skills Training",
-      duration: "2 Months",
-      reviews: "700",
-      details: "Sharpen communication, teamwork, leadership, and problem-solving skills."
+      duration: "2-3 Months",
+      reviews: "1.5k Reviews",
+      details: {
+    whatYouGet: [
+      "Certificate on Completion",
+      "Mock Interviews",
+      "1:1 Live Session",
+      "Career Guidance"
+    ],
+      finalResult: [
+        "Ready for Clients facing Role",
+        "Confident in Interview & Teamwork",
+        "Strong Interpersonal",
+        "Leadership Skills"
+      ]
+  }
     },
     {
       img: "/images/UI UX.jpg",
       title: "UI/UX Design",
-      duration: "3 Months",
-      reviews: "600",
-      details: "Learn user research, wireframing, prototyping, and design tools for great interfaces."
+      duration: "2-3 Months",
+      reviews: "900 Reviews",
+      details: {
+    whatYouGet: [
+      "Certificate on Completion",
+      "Mock Interviews",
+      "1:1 Live Session",
+      "Career Guidance"
+    ],
+    finalResult: [
+      "Become a UI/UX Designer",
+      "Build Apps & Website from Scratch",
+      "Create impactful User Experience"
+    ]
+  }
     }
   ];
 
@@ -82,7 +185,6 @@ export default function Courses() {
     <section className="courses" id="courses" aria-labelledby="courses-title">
       
       <h2 id="courses-title">Explore Our Top Courses</h2>
-      
       <Slider {...settings}>
         {courses.map((course, i) => (
           <FlipCard

@@ -43,10 +43,59 @@ export default function Programs() {
     },
     {
       img: "/images/LAKSHYA Image.jpg",
-      title: "Lakshya Program",
-      duration: "Custom",
-      reviews: "New",
-      details: "A flagship initiative under Code Elevate Academy — focused mentorship, guided projects, and career acceleration."
+      title: "LAKSHYA 9.0 - 90 Days DSA Series",
+      duration: "3 Months",
+      reviews: "880 Reviews",
+      details: {
+        whatYouGet: [
+            "Certificate on Completion",
+            "Mock Interviews",
+            "1:1 Live Session",
+            "Career Guidance"
+        ],
+        finalResult: [
+          "Become a FullStack Developer",
+          "Master frontend & backend technologies",
+          "Build complete applications",
+          "independently"
+        ]
+      }
+    },
+    {
+      img: "/images/UDAAN_Pro.jpg",
+      title: "UDAAN Pro",
+      duration: "3 Months",
+      reviews: "880 Reviews",
+      details: {
+        whatYouGet: ["Certificate on Completion",
+            "Mock Interviews",
+            "1:1 Live Session",
+            "Career Guidance"
+        ],
+        finalResult: ["Become an expert in your field",
+          "Master all the technologies you need",
+          "Industry Readiness Programs"
+        ]
+      }
+    },
+    {
+      img: "/images/Tech_Writing_Course.jpg",
+      title: "Technical Writing",
+      duration: "5-6 Months",
+      reviews: "1,880 Reviews",
+      details: {
+        whatYouGet: [
+            "Certificate on Completion",
+            "Mock Interviews",
+            "1:1 Live Session",
+            "Career Guidance"
+        ],
+        finalResult: [
+          "Master the art of clear, concise and impactful Documentation",
+          "Professional Writing Techniques",
+          "Career Guidance."
+        ]
+      }
     }
   ];
 
