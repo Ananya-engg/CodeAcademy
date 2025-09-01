@@ -31,7 +31,14 @@ export default function About() {
             <p>We make coding education accessible with tutorials and real-world projects.</p>
             <p>At Code Elevate, we believe that great developers aren’t born — they’re built. Our mission is to make high-quality, practical coding education accessible to everyone, whether you're writing your first line of code or fine-tuning advanced systems.
 We offer beginner-friendly tutorials, deep dives into advanced topics, and real-world projects that help you turn knowledge into skill. Our content is crafted by experienced developers and educators who understand the challenges of learning to code — and how to overcome them.</p>
-            <a href="#courses" className="btn btn--get-started">Get Started</a>
+            <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfcVwR5wPVTWJazfUYHM9O1WgqkRMwhcVgotW2viytE6LRPUQ/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn--get-started"
+>
+  Get Started
+</a>
           </div>
         </motion.div>
       </div>

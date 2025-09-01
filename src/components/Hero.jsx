@@ -14,7 +14,14 @@ export default function Hero() {
             job-ready skills — all in one place.
           </p>
           <div className="hero-cta">
-            <a href="#courses" className="btn btn--get-started">Get Started</a>
+            <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfcVwR5wPVTWJazfUYHM9O1WgqkRMwhcVgotW2viytE6LRPUQ/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn--get-started"
+>
+  Get Started
+</a>
             <a href="#programs" className="btn btn--get-started">Explore Programs</a>
           </div>
         </div>
